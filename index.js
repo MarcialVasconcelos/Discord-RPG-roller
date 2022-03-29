@@ -2,7 +2,7 @@ const DiscordJS = require('discord.js')
 const dotenv = require('dotenv')
 dotenv.config()
 
-const Reply = require('./replyer')
+const Reply = require('./src/replyer')
 
 const client = new DiscordJS.Client({
     intents: [
