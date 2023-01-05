@@ -47,8 +47,8 @@ function dx (dice=6, quant=1, bonus=0) {
     if (Math.sign(bonus)===1) _bonus = "+" + _bonus
     let _results = quant===1 ? "" : "`" + `[${results}]${_bonus}` + "`"
 
-    let response = `Roll ${_quant}d${dice}${_bonus}: ` + _results + " => " + "` " + total + " `" 
+    let response = `Roll ${_quant}d${dice}${_bonus}: ` + _results + " --> " + "` " + total + " `" 
     return response
 }
 
-module.exports = { dx, roll, d4, d6, d8, d10, d12, d20, d100, rollBody }
+module.exports = { dx, roll, d4, d6, d8, d10, d12, d20, d100, d666, rollBody }

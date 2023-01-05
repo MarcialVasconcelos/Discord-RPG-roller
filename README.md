@@ -12,6 +12,6 @@
  >.env
  
  >```
- >TOKEN={Your private token}
+ >TOKEN={Bot private token}
  >```
  
